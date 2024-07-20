@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Habit Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Habit Tracker</h1>
+        <button id="startButton">Start Tracking</button>
+    </header>
+
+    <main id="app" class="hidden">
+        <section id="habitManagement">
+            <h2>Habit Management</h2>
+            <form id="habitForm">
+                <input type="text" id="habitName" placeholder="Habit Name" required>
+                <select id="habitFrequency">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                </select>
+                <button type="submit">Add Habit</button>
+            </form>
+            <ul id="habitList"></ul>
+        </section>
+
+        <section id="gamification">
+            <h2>Gamification</h2>
+            <p>Points: <span id="points">0</span></p>
+        </section>
+
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <ul id="leaderboardList"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

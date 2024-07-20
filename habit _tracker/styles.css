@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    padding: 2em;
+}
+
+#habitForm {
+    margin-bottom: 1em;
+}
+
+#habitList {
+    list-style: none;
+    padding: 0;
+}
+
+#habitList li {
+    padding: 0.5em;
+    background-color: #fff;
+    margin-bottom: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#habitList button {
+    margin-left: 1em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#habitList button:hover {
+    background-color: #45a049;
+}
+
+#leaderboardList {
+    list-style: none;
+    padding: 0;
+}
+
+#leaderboardList li {
+    padding: 0.5em;
+    background-color: #fff;
+    margin-bottom: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
